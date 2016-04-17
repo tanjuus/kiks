@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E01FD0A1CC3D5E20051BB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01FD091CC3D5E20051BB9E /* AppDelegate.swift */; };
+		4E01FD0C1CC3D5E20051BB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01FD0B1CC3D5E20051BB9E /* ViewController.swift */; };
+		4E01FD0F1CC3D5E20051BB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E01FD0D1CC3D5E20051BB9E /* Main.storyboard */; };
+		4E01FD111CC3D5E20051BB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E01FD101CC3D5E20051BB9E /* Assets.xcassets */; };
+		4E01FD141CC3D5E20051BB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E01FD121CC3D5E20051BB9E /* LaunchScreen.storyboard */; };
+		4E01FD1F1CC3D5E20051BB9E /* KIKS_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01FD1E1CC3D5E20051BB9E /* KIKS_iOSTests.swift */; };
+		4E01FD2A1CC3D5E30051BB9E /* KIKS_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01FD291CC3D5E30051BB9E /* KIKS_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E01FD1B1CC3D5E20051BB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E01FCFE1CC3D5E20051BB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E01FD051CC3D5E20051BB9E;
+			remoteInfo = KIKS_iOS;
+		};
+		4E01FD261CC3D5E30051BB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E01FCFE1CC3D5E20051BB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E01FD051CC3D5E20051BB9E;
+			remoteInfo = KIKS_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E01FD061CC3D5E20051BB9E /* KIKS_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIKS_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E01FD091CC3D5E20051BB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E01FD0B1CC3D5E20051BB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E01FD0E1CC3D5E20051BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E01FD101CC3D5E20051BB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E01FD131CC3D5E20051BB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E01FD151CC3D5E20051BB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E01FD1A1CC3D5E20051BB9E /* KIKS_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIKS_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E01FD1E1CC3D5E20051BB9E /* KIKS_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIKS_iOSTests.swift; sourceTree = "<group>"; };
+		4E01FD201CC3D5E20051BB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E01FD251CC3D5E30051BB9E /* KIKS_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIKS_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E01FD291CC3D5E30051BB9E /* KIKS_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIKS_iOSUITests.swift; sourceTree = "<group>"; };
+		4E01FD2B1CC3D5E30051BB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E01FD031CC3D5E20051BB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E01FD171CC3D5E20051BB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E01FD221CC3D5E30051BB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E01FCFD1CC3D5E20051BB9E = {
+			isa = PBXGroup;
+			children = (
+				4E01FD081CC3D5E20051BB9E /* KIKS_iOS */,
+				4E01FD1D1CC3D5E20051BB9E /* KIKS_iOSTests */,
+				4E01FD281CC3D5E30051BB9E /* KIKS_iOSUITests */,
+				4E01FD071CC3D5E20051BB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E01FD071CC3D5E20051BB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E01FD061CC3D5E20051BB9E /* KIKS_iOS.app */,
+				4E01FD1A1CC3D5E20051BB9E /* KIKS_iOSTests.xctest */,
+				4E01FD251CC3D5E30051BB9E /* KIKS_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E01FD081CC3D5E20051BB9E /* KIKS_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E01FD091CC3D5E20051BB9E /* AppDelegate.swift */,
+				4E01FD0B1CC3D5E20051BB9E /* ViewController.swift */,
+				4E01FD0D1CC3D5E20051BB9E /* Main.storyboard */,
+				4E01FD101CC3D5E20051BB9E /* Assets.xcassets */,
+				4E01FD121CC3D5E20051BB9E /* LaunchScreen.storyboard */,
+				4E01FD151CC3D5E20051BB9E /* Info.plist */,
+			);
+			path = KIKS_iOS;
+			sourceTree = "<group>";
+		};
+		4E01FD1D1CC3D5E20051BB9E /* KIKS_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E01FD1E1CC3D5E20051BB9E /* KIKS_iOSTests.swift */,
+				4E01FD201CC3D5E20051BB9E /* Info.plist */,
+			);
+			path = KIKS_iOSTests;
+			sourceTree = "<group>";
+		};
+		4E01FD281CC3D5E30051BB9E /* KIKS_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E01FD291CC3D5E30051BB9E /* KIKS_iOSUITests.swift */,
+				4E01FD2B1CC3D5E30051BB9E /* Info.plist */,
+			);
+			path = KIKS_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E01FD051CC3D5E20051BB9E /* KIKS_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E01FD2E1CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOS" */;
+			buildPhases = (
+				4E01FD021CC3D5E20051BB9E /* Sources */,
+				4E01FD031CC3D5E20051BB9E /* Frameworks */,
+				4E01FD041CC3D5E20051BB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIKS_iOS;
+			productName = KIKS_iOS;
+			productReference = 4E01FD061CC3D5E20051BB9E /* KIKS_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E01FD191CC3D5E20051BB9E /* KIKS_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E01FD311CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOSTests" */;
+			buildPhases = (
+				4E01FD161CC3D5E20051BB9E /* Sources */,
+				4E01FD171CC3D5E20051BB9E /* Frameworks */,
+				4E01FD181CC3D5E20051BB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E01FD1C1CC3D5E20051BB9E /* PBXTargetDependency */,
+			);
+			name = KIKS_iOSTests;
+			productName = KIKS_iOSTests;
+			productReference = 4E01FD1A1CC3D5E20051BB9E /* KIKS_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E01FD241CC3D5E30051BB9E /* KIKS_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E01FD341CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOSUITests" */;
+			buildPhases = (
+				4E01FD211CC3D5E30051BB9E /* Sources */,
+				4E01FD221CC3D5E30051BB9E /* Frameworks */,
+				4E01FD231CC3D5E30051BB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E01FD271CC3D5E30051BB9E /* PBXTargetDependency */,
+			);
+			name = KIKS_iOSUITests;
+			productName = KIKS_iOSUITests;
+			productReference = 4E01FD251CC3D5E30051BB9E /* KIKS_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E01FCFE1CC3D5E20051BB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KiksOy;
+				TargetAttributes = {
+					4E01FD051CC3D5E20051BB9E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4E01FD191CC3D5E20051BB9E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4E01FD051CC3D5E20051BB9E;
+					};
+					4E01FD241CC3D5E30051BB9E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4E01FD051CC3D5E20051BB9E;
+					};
+				};
+			};
+			buildConfigurationList = 4E01FD011CC3D5E20051BB9E /* Build configuration list for PBXProject "KIKS_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E01FCFD1CC3D5E20051BB9E;
+			productRefGroup = 4E01FD071CC3D5E20051BB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E01FD051CC3D5E20051BB9E /* KIKS_iOS */,
+				4E01FD191CC3D5E20051BB9E /* KIKS_iOSTests */,
+				4E01FD241CC3D5E30051BB9E /* KIKS_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E01FD041CC3D5E20051BB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E01FD141CC3D5E20051BB9E /* LaunchScreen.storyboard in Resources */,
+				4E01FD111CC3D5E20051BB9E /* Assets.xcassets in Resources */,
+				4E01FD0F1CC3D5E20051BB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E01FD181CC3D5E20051BB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E01FD231CC3D5E30051BB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E01FD021CC3D5E20051BB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E01FD0C1CC3D5E20051BB9E /* ViewController.swift in Sources */,
+				4E01FD0A1CC3D5E20051BB9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E01FD161CC3D5E20051BB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E01FD1F1CC3D5E20051BB9E /* KIKS_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E01FD211CC3D5E30051BB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E01FD2A1CC3D5E30051BB9E /* KIKS_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E01FD1C1CC3D5E20051BB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E01FD051CC3D5E20051BB9E /* KIKS_iOS */;
+			targetProxy = 4E01FD1B1CC3D5E20051BB9E /* PBXContainerItemProxy */;
+		};
+		4E01FD271CC3D5E30051BB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E01FD051CC3D5E20051BB9E /* KIKS_iOS */;
+			targetProxy = 4E01FD261CC3D5E30051BB9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E01FD0D1CC3D5E20051BB9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E01FD0E1CC3D5E20051BB9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E01FD121CC3D5E20051BB9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E01FD131CC3D5E20051BB9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E01FD2C1CC3D5E30051BB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E01FD2D1CC3D5E30051BB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E01FD2F1CC3D5E30051BB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIKS_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kiks.KIKS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E01FD301CC3D5E30051BB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIKS_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kiks.KIKS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E01FD321CC3D5E30051BB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KIKS_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kiks.KIKS-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIKS_iOS.app/KIKS_iOS";
+			};
+			name = Debug;
+		};
+		4E01FD331CC3D5E30051BB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KIKS_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kiks.KIKS-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIKS_iOS.app/KIKS_iOS";
+			};
+			name = Release;
+		};
+		4E01FD351CC3D5E30051BB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KIKS_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kiks.KIKS-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KIKS_iOS;
+			};
+			name = Debug;
+		};
+		4E01FD361CC3D5E30051BB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KIKS_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kiks.KIKS-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KIKS_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E01FD011CC3D5E20051BB9E /* Build configuration list for PBXProject "KIKS_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E01FD2C1CC3D5E30051BB9E /* Debug */,
+				4E01FD2D1CC3D5E30051BB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E01FD2E1CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E01FD2F1CC3D5E30051BB9E /* Debug */,
+				4E01FD301CC3D5E30051BB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E01FD311CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E01FD321CC3D5E30051BB9E /* Debug */,
+				4E01FD331CC3D5E30051BB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E01FD341CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E01FD351CC3D5E30051BB9E /* Debug */,
+				4E01FD361CC3D5E30051BB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E01FCFE1CC3D5E20051BB9E /* Project object */;
+}
