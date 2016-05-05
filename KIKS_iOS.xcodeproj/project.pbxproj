@@ -14,6 +14,8 @@
 		4E01FD141CC3D5E20051BB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E01FD121CC3D5E20051BB9E /* LaunchScreen.storyboard */; };
 		4E01FD1F1CC3D5E20051BB9E /* KIKS_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01FD1E1CC3D5E20051BB9E /* KIKS_iOSTests.swift */; };
 		4E01FD2A1CC3D5E30051BB9E /* KIKS_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01FD291CC3D5E30051BB9E /* KIKS_iOSUITests.swift */; };
+		4EAA21B01CC7A16400B8399D /* TasksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA21AF1CC7A16400B8399D /* TasksVC.swift */; };
+		4EAA21F81CCA4C2700B8399D /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA21F71CCA4C2700B8399D /* AddTaskVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4E01FD251CC3D5E30051BB9E /* KIKS_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIKS_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E01FD291CC3D5E30051BB9E /* KIKS_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIKS_iOSUITests.swift; sourceTree = "<group>"; };
 		4E01FD2B1CC3D5E30051BB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAA21AF1CC7A16400B8399D /* TasksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksVC.swift; sourceTree = "<group>"; };
+		4EAA21F71CCA4C2700B8399D /* AddTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				4E01FD091CC3D5E20051BB9E /* AppDelegate.swift */,
 				4E01FD0B1CC3D5E20051BB9E /* ViewController.swift */,
 				4E01FD0D1CC3D5E20051BB9E /* Main.storyboard */,
+				4EAA21F71CCA4C2700B8399D /* AddTaskVC.swift */,
+				4EAA21AF1CC7A16400B8399D /* TasksVC.swift */,
 				4E01FD101CC3D5E20051BB9E /* Assets.xcassets */,
 				4E01FD121CC3D5E20051BB9E /* LaunchScreen.storyboard */,
 				4E01FD151CC3D5E20051BB9E /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				4E01FD0C1CC3D5E20051BB9E /* ViewController.swift in Sources */,
 				4E01FD0A1CC3D5E20051BB9E /* AppDelegate.swift in Sources */,
+				4EAA21B01CC7A16400B8399D /* TasksVC.swift in Sources */,
+				4EAA21F81CCA4C2700B8399D /* AddTaskVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				4E01FD301CC3D5E30051BB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E01FD311CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				4E01FD331CC3D5E30051BB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E01FD341CC3D5E30051BB9E /* Build configuration list for PBXNativeTarget "KIKS_iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				4E01FD361CC3D5E30051BB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
